@@ -1,10 +1,10 @@
 import numpy as np
 
 # Given parameters
-frequency = 6.7e3  # Frequency in Hz
-R = 3  # Resistance in Ohms
-C = 7e-6  # Capacitance in Farads
-V_peak_input = 37  # Peak amplitude of the input voltage in Volts
+frequency = 1.2e3  # Frequency in Hz
+R = 18  # Resistance in Ohms
+C = 17.6e-6  # Capacitance in Farads
+V_peak_input = 38  # Peak amplitude of the input voltage in Volts
 
 # Angular frequency
 omega = 2 * np.pi * frequency
