@@ -26,13 +26,13 @@ y_values = signal.convolve(x_values, p_values, mode='full') * (t_values[1] - t_v
 start_index = (len(y_values) - len(t_values)) // 2
 y_values = y_values[start_index:start_index + len(t_values)]
 
-index = np.where(t_values >= 3)[0][0]
+index = np.where(t_values >= 4)[0][0]  
 """
 y[5] has been giving me problems, 
 I am getting y[5] = 2, should be y[5] == 3
              y[2] = 6 (Joshua's Question is saying that this is correct)
 The Correct Values i got using this method are:
-y[4] == 4
+y[4] == 3
 y[-1] ==6.4999
 y[3] == 3.5
 """
