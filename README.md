@@ -69,11 +69,11 @@ Signals-Pamphile/
 - Do not use Heaviside to create Switch function your input functions,instead use Piecewise, because it is much easier to integrate Piecewise functions compared to Heaviside.
 - Sketch the graph for every question to ensure the correspondence of Data.
 - For discrete convolution, remember the formula : convolution lenght = len(x) + len(h) - 1
-      - The first element returned in the convolution array is having an index of: lowerboundindex(x) + lowerboundindex(h).
+      a. The first element returned in the convolution array is having an index of: lowerboundindex(x) + lowerboundindex(h).
 - For convolution in the Continious Time Domain.
-      - Sketch both graphs indivisually for checking the correspondence of the data.
-      - Do not use `sm.Heaviside` for defining unit step function, just use `sm.Piecewise`
-      - Sketch both graphs on the same set of Axis to visualise the over-lap, shift the graph as stated in the question, and then integrate using the following approach.
+      1. Sketch both graphs indivisually for checking the correspondence of the data.
+      2. Do not use `sm.Heaviside` for defining unit step function, just use `sm.Piecewise`
+      3. Sketch both graphs on the same set of Axis to visualise the over-lap, shift the graph as stated in the question, and then integrate using the following approach.
 ![Approach of How to go about convoluting in CT Domain](ConvCT.png)
 
 ## 📐 Transfer Functions
