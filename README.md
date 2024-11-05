@@ -21,7 +21,10 @@ git clone https://github.com/Ivyson/Signals-Pamphile.git
 
 # Install required packages
 pip install -r [requirements.txt]((http://_vscodecontentref_/1))
-📚 Project Structure
+```
+
+## 📚 Project Structure
+
 ```plaintext
 signal-processing/
 ├── Fourier/
@@ -81,12 +84,12 @@ For frequency domain analysis with input voltage $V_{in}$ and frequency $f$ wher
 
 #### RC Low Pass
 
-Magnitude: $|H(jω)| = \frac{1}{\sqrt{1 + (ωRC)^2}}$
-Phase: $\phi(ω) = -\tan^{-1}(ωRC)$
-Corner Frequency: $f_c = \frac{1}{2πRC}$
+- Magnitude: $|H(jω)| = \frac{1}{\sqrt{1 + (ωRC)^2}}$
+- Phase: $\phi(ω) = -\tan^{-1}(ωRC)$
+- Corner Frequency: $f_c = \frac{1}{2πRC}$
 
 #### RL High Pass Filter
 
-Magnitude: $|H(jω)| = \frac{ωL}{\sqrt{R^2 + (ωL)^2}}$
-Phase: $\phi(ω) = \tan^{-1}(\frac{R}{ωL})$
-Corner Frequency: $f_c = \frac{R}{2πL}$
+- Magnitude: $|H(jω)| = \frac{ωL}{\sqrt{R^2 + (ωL)^2}}$
+- Phase: $\phi(ω) = \tan^{-1}(\frac{R}{ωL})$
+- Corner Frequency: $f_c = \frac{R}{2πL}$
