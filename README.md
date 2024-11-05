@@ -18,10 +18,9 @@ A comprehensive collection of signal processing implementations including Fourie
 ```bash
 # Clone the repository
 git clone https://github.com/Ivyson/Signals-Pamphile.git
-
-# Install required packages
-See [requirements.txt](requirements.txt) for required packages.
 ```
+
+See [requirements.txt](requirements.txt) for required packages.
 
 ## 📚 Project Structure
 
