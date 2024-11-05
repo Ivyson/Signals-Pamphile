@@ -22,20 +22,46 @@ git clone https://github.com/Ivyson/Signals-Pamphile.git
 
 See [requirements.txt](requirements.txt) for required packages.
 
-## 📚 Project Structure
+## 📂 Project Structure
 
 ```plaintext
-signal-processing/
-├── Fourier/
+Signals-Pamphile/
+├── Pioneer Tests/
+│   ├── Test 1/
+│   │   ├── Q1.ipynb
+│   │   ├── Q2.ipynb
+│   │   ├── Q3.ipynb
+│   │   ├── Q4.ipynb
+│   │   └── Q5.ipynb
+│   └── Test 2/
+│       ├── Q1.ipynb
+│       ├── Q2.ipynb
+│       ├── Q3.ipynb
+│       ├── Q4.ipynb
+│       └── Q5.ipynb
+├── Maso Test 2/
+│   ├── Q1.ipynb
+│   ├── Q2.ipynb
+│   ├── Q3.ipynb
+│   ├── Q4.ipynb
+│   ├── Q5.ipynb
+│   └── images/
+│       └── [Cosine.png](Cosine.png)
+├── JupyterNotebook/
+│   ├── LTI.ipynb
+│   ├── Convolution.ipynb
 │   ├── FourierTransform.ipynb
-│   └── 
-├── Laplace/
 │   ├── LaplaceTransform.ipynb
-│   └── SystemResponse.py
-└── Systems/
-    ├── LTI_Systems.ipynb
-    └── ConvolutionAnalysis.py
-```
+│   └── SystemResponse.ipynb
+├── docs/
+│   └── images/
+│       ├── [ConvCT.png](http://_vscodecontentref_/1)
+│       ├── FourierPlot.png
+│       ├── LaplacePlot.png
+│       ├── SystemResponse.png
+│       └── TransferFunction.png
+├── [README.md](http://_vscodecontentref_/2)
+└── [requirements.txt](http://_vscodecontentref_/3)
 
 ## 🚀 Notes to Self
 
