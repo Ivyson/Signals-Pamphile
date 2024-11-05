@@ -46,7 +46,7 @@ Signals-Pamphile/
 │   ├── Q4.ipynb
 │   ├── Q5.ipynb
 │   └── images/
-│       └── [Cosine.png](Cosine.png)
+│       └── Cosine.png
 ├── JupyterNotebook/
 │   ├── LTI.ipynb
 │   ├── Convolution.ipynb
@@ -55,13 +55,13 @@ Signals-Pamphile/
 │   └── SystemResponse.ipynb
 ├── docs/
 │   └── images/
-│       ├── [ConvCT.png](http://_vscodecontentref_/1)
+│       ├── ConvCT.png
 │       ├── FourierPlot.png
 │       ├── LaplacePlot.png
 │       ├── SystemResponse.png
 │       └── TransferFunction.png
-├── [README.md](http://_vscodecontentref_/2)
-└── [requirements.txt](http://_vscodecontentref_/3)
+├── README.md
+└── requirements.txt
 ```
 
 ## 🚀 Notes to Self
