@@ -62,6 +62,7 @@ Signals-Pamphile/
 │       └── TransferFunction.png
 ├── [README.md](http://_vscodecontentref_/2)
 └── [requirements.txt](http://_vscodecontentref_/3)
+```
 
 ## 🚀 Notes to Self
 
