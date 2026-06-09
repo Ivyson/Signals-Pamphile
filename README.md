@@ -1,11 +1,8 @@
-# 📊 Signal Processing Systems 2
-
+# Signal Processing Systems 2
 A comprehensive collection of signal processing implementations including Fourier Transforms, Laplace Transforms, and system analysis.
 
-![Python](https://img.shields.io/badge/python-3.9-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-
-## 🎯 Features
+![Python](https://img.shields.io/badge/python-3.14-blue.svg)
+## Features
 
 - Fourier Transform Analysis
 - Laplace Transform Implementations
@@ -13,60 +10,138 @@ A comprehensive collection of signal processing implementations including Fourie
 - Signal Visualization Tools
 - Linear Time-Invariant Systems
 
-## 🔧 Installation
+## Installation
 
 ```bash
 # Clone the repository
 git clone https://github.com/Ivyson/Signals-Pamphile.git
 ```
 
-See [requirements.txt](requirements.txt) for required packages.
+Check out the `pyproject` File for the libraries needed for this module, use `uv` to install the required packages instead of `pip`
 
-## 📂 Project Structure
+## Project Structure
 
-```plaintext
-Signals-Pamphile/
-├── Pioneer Tests/
-│   ├── Test 1/
-│   │   ├── Q1.ipynb
-│   │   ├── Q2.ipynb
-│   │   ├── Q3.ipynb
-│   │   ├── Q4.ipynb
-│   │   └── Q5.ipynb
-│   └── Test 2/
-│       ├── Q1.ipynb
-│       ├── Q2.ipynb
-│       ├── Q3.ipynb
-│       ├── Q4.ipynb
-│       └── Q5.ipynb
-├── Maso Test 2/
-│   ├── Q1.ipynb
-│   ├── Q2.ipynb
-│   ├── Q3.ipynb
-│   ├── Q4.ipynb
-│   ├── Q5.ipynb
-│   └── images/
-│       └── Cosine.png
-├── JupyterNotebook/
-│   ├── LTI.ipynb
-│   ├── Convolution.ipynb
-│   ├── FourierTransform.ipynb
-│   ├── LaplaceTransform.ipynb
-│   └── SystemResponse.ipynb
-├── docs/
-│   └── images/
-│       ├── ConvCT.png
-│       ├── FourierPlot.png
-│       ├── LaplacePlot.png
-│       ├── SystemResponse.png
-│       └── TransferFunction.png
+```sh
+.
+├── Examples
+│   ├── ConvCT.png
+│   ├── Cosine.png
+│   ├── DFT.py
+│   ├── FourierMagnitude.py
+│   ├── Laplace-Transform.py
+│   ├── RC.py
+│   ├── README.md
+│   └── Z-Transform.py
+├── FISA
+│   ├── ConvolutionCT.ipynb
+│   ├── ConvolutionCT.png
+│   ├── Laplace_Transform.ipynb
+│   ├── LTI.ipynb
+│   ├── Q1.ipynb
+│   ├── Q1.png
+│   ├── Question5.ipynb
+│   ├── RectangularWave.ipynb
+│   ├── RectangularWave.png
+│   ├── RL.ipynb
+│   ├── RL.png
+│   ├── Shekhinah2.ipynb
+│   ├── Shekhinah.ipynb
+│   ├── Switchedcosine copy.ipynb
+│   ├── Switchedcosine.ipynb
+│   ├── Switchedcosine.png
+│   ├── Transfer.png
+│   └── TrasnferFunction.ipynb
+├── pyproject.toml
 ├── README.md
-└── requirements.txt
+├── Test 1 A
+│   ├── Q1.ipynb
+│   ├── Q1.png
+│   ├── Q2.ipynb
+│   ├── Q2.png
+│   ├── Q3.ipynb
+│   ├── Q3.png
+│   ├── Q4.ipynb
+│   ├── Q4.png
+│   ├── Q5.ipynb
+│   ├── Q5.png
+│   ├── Q6.ipynb
+│   ├── Q6.png
+│   ├── Q6.py
+│   ├── Q7.ipynb
+│   ├── Q7.png
+│   ├── Q9.ipynb
+│   └── Q9.png
+├── Test 1 B
+│   ├── Q2.ipynb
+│   ├── Q2.png
+│   ├── Q3.ipynb
+│   ├── Q3.png
+│   ├── Q4.ipynb
+│   ├── Q4.png
+│   ├── Q5.ipynb
+│   ├── Q5.png
+│   ├── Q6.ipynb
+│   ├── Q6.png
+│   ├── Q8.1.png
+│   ├── Q8.2.png
+│   ├── Q8Conv.png
+│   └── Q8.ipynb
+├── Test 1 C
+│   ├── Q1.ipynb
+│   ├── Q1.png
+│   ├── Q2.ipynb
+│   ├── Q2.png
+│   ├── Q3.ipynb
+│   ├── Q3.png
+│   ├── Q4.ipynb
+│   ├── Q4.png
+│   ├── Q5A.png
+│   ├── Q5B.png
+│   ├── Q5.ipynb
+│   ├── Q6.ipynb
+│   ├── Q6.png
+│   ├── Q7.ipynb
+│   ├── Q7.png
+│   ├── Q8.ipynb
+│   ├── Q8.png
+│   ├── Q9.ipynb
+│   └── Q9.png
+├── Test 2 A
+│   ├── Q1.ipynb
+│   ├── Q1.png
+│   ├── Q2.ipynb
+│   ├── Q2.png
+│   ├── Q3.ipynb
+│   ├── Q3.png
+│   ├── Q4.ipynb
+│   ├── Q4.png
+│   ├── Q5.ipynb
+│   └── Q5.png
+├── Test 2 B
+│   ├── image.png
+│   ├── Q1.ipynb
+│   ├── Q2.ipynb
+│   ├── Q3.ipynb
+│   ├── Q3.png
+│   ├── Q3.py
+│   ├── Q4.ipynb
+│   ├── Q4.png
+│   ├── Q5.ipynb
+│   ├── Q5.png
+│   └── Q5.py
+├── Test 2 C
+│   ├── Q1.ipynb
+│   ├── Q1.png
+│   ├── Q2.ipynb
+│   └── Q2.png
+└── uv.lock
+
+9 directories, 104 files
 ```
 
-## 🚀 Notes to Self
+## Notes to Self
 
-- Do not use Heaviside to create Switch function your input functions,instead use Piecewise, because it is much easier to integrate Piecewise functions compared to Heaviside.
+- Do not use Heaviside to create Switch function your input functions,instead use Piecewise, because it is much easier to integrate Piecewise functions compared to Heaviside(as far as `sympy` is concerned).
 - Sketch the graph for every question to ensure the correspondence of Data.
 - For discrete convolution, remember the formula : convolution lenght = len(x) + len(h) - 1
       a. The first element returned in the convolution array is having an index of: lowerboundindex(x) + lowerboundindex(h).
@@ -74,9 +149,9 @@ Signals-Pamphile/
       1. Sketch both graphs indivisually for checking the correspondence of the data.
       2. Do not use `sm.Heaviside` for defining unit step function, just use `sm.Piecewise`
       3. Sketch both graphs on the same set of Axis to visualise the over-lap, shift the graph as stated in the question, and then integrate using the following approach.
-![Approach of How to go about convoluting in CT Domain](ConvCT.png)
+![Approach of How to go about convoluting in CT Domain](./Examples/ConvCT.png)
 
-## 📐 Transfer Functions
+## Transfer Functions
 
 ### Laplace Domain (s-domain)
 
@@ -106,16 +181,17 @@ H(s) = \frac{V_{out}(s)}{V_{in}(s)} = \frac{1/sC}{R + 1/sC} = \frac{1}{sRC + 1}
 
 ### Magnitude and Phase
 
-For frequency domain analysis with input voltage $V_{in}$ and frequency $f$ where $ω = 2πf$:
+For frequency domain analysis with input voltage $V_{in}$ and frequency $f$ where $\omega = 2 \pi f$:
 
 #### RC Low Pass
 
-- Magnitude: $|H(jω)| = \frac{1}{\sqrt{1 + (ωRC)^2}}$
-- Phase: $\phi(ω) = -\tan^{-1}(ωRC)$
-- Corner Frequency: $f_c = \frac{1}{2πRC}$
+- Magnitude: $|H \left(j \omega \right)| = \frac{1}{\sqrt{1 + (\omega RC)^2}}$
+- Phase: $\phi( \omega ) = -\tan^{-1}(\omega RC)$
+- Corner Frequency: $f_c = \frac{1}{2\pi RC}$
 
 #### RL High Pass Filter
 
-- Magnitude: $|H(jω)| = \frac{ωL}{\sqrt{R^2 + (ωL)^2}}$
-- Phase: $\phi(ω) = \tan^{-1}(\frac{R}{ωL})$
-- Corner Frequency: $f_c = \frac{R}{2πL}$
+- Magnitude: $|H(j\omega)| = \frac{ωL}{\sqrt{R^2 + (ωL)^2}}$
+- Phase: $\phi(\omega) = \tan^{-1} \left(\frac{R}{ \pi L} \right)$
+- Corner Frequency: $f_c = \frac{R}{2 \pi L}$
+

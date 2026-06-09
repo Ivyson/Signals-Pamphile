@@ -5,7 +5,6 @@ t = sm.Symbol('t')
 s = sm.Symbol('s')
 Vin = t*u(t)
 # From The KVL We get the  equation :
-# Vin = V_r + Vc -> tµ(t)=i(t)R+(1/C)∫i(tau)dtau=i(t)+(1/5)∫i(t)
 # 1/s^2 = I(s)+(1/5s)I(s)
 # 1/s^2 = I(s) [1+1/5s]
 # 1/s^2[1+1/5s]=I(s)
