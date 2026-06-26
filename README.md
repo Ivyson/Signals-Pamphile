@@ -30,7 +30,6 @@ Check out the `pyproject` File for the libraries needed for this module, use `uv
 │   ├── FourierMagnitude.py
 │   ├── Laplace-Transform.py
 │   ├── RC.py
-│   ├── README.md
 │   └── Z-Transform.py
 ├── FISA
 │   ├── ConvolutionCT.ipynb
@@ -54,69 +53,72 @@ Check out the `pyproject` File for the libraries needed for this module, use `uv
 ├── pyproject.toml
 ├── README.md
 ├── Test 1 A
+│   ├── Images
+│   │   ├── Q1.png
+│   │   ├── Q2.png
+│   │   ├── Q3.png
+│   │   ├── Q4.png
+│   │   ├── Q5.png
+│   │   ├── Q6.png
+│   │   ├── Q7.png
+│   │   └── Q9.png
 │   ├── Q1.ipynb
-│   ├── Q1.png
 │   ├── Q2.ipynb
-│   ├── Q2.png
 │   ├── Q3.ipynb
-│   ├── Q3.png
 │   ├── Q4.ipynb
-│   ├── Q4.png
 │   ├── Q5.ipynb
-│   ├── Q5.png
 │   ├── Q6.ipynb
-│   ├── Q6.png
-│   ├── Q6.py
 │   ├── Q7.ipynb
-│   ├── Q7.png
-│   ├── Q9.ipynb
-│   └── Q9.png
+│   └── Q9.ipynb
 ├── Test 1 B
+│   ├── Images
+│   │   ├── Q2.png
+│   │   ├── Q3.png
+│   │   ├── Q4.png
+│   │   ├── Q5.png
+│   │   ├── Q6.png
+│   │   ├── Q8.1.png
+│   │   ├── Q8.2.png
+│   │   └── Q8Conv.png
 │   ├── Q2.ipynb
-│   ├── Q2.png
 │   ├── Q3.ipynb
-│   ├── Q3.png
 │   ├── Q4.ipynb
-│   ├── Q4.png
 │   ├── Q5.ipynb
-│   ├── Q5.png
 │   ├── Q6.ipynb
-│   ├── Q6.png
-│   ├── Q8.1.png
-│   ├── Q8.2.png
-│   ├── Q8Conv.png
 │   └── Q8.ipynb
 ├── Test 1 C
+│   ├── Images
+│   │   ├── Q1.png
+│   │   ├── Q2.png
+│   │   ├── Q3.png
+│   │   ├── Q4.png
+│   │   ├── Q5A.png
+│   │   ├── Q5B.png
+│   │   ├── Q6.png
+│   │   ├── Q7.png
+│   │   ├── Q8.png
+│   │   └── Q9.png
 │   ├── Q1.ipynb
-│   ├── Q1.png
 │   ├── Q2.ipynb
-│   ├── Q2.png
 │   ├── Q3.ipynb
-│   ├── Q3.png
 │   ├── Q4.ipynb
-│   ├── Q4.png
-│   ├── Q5A.png
-│   ├── Q5B.png
 │   ├── Q5.ipynb
 │   ├── Q6.ipynb
-│   ├── Q6.png
 │   ├── Q7.ipynb
-│   ├── Q7.png
 │   ├── Q8.ipynb
-│   ├── Q8.png
-│   ├── Q9.ipynb
-│   └── Q9.png
+│   └── Q9.ipynb
 ├── Test 2 A
+│   ├── Images
+│   │   ├── Q1.png
+│   │   ├── Q2.png
+│   │   ├── Q3.png
+│   │   ├── Q4.png
+│   │   └── Q5.png
 │   ├── Q1.ipynb
-│   ├── Q1.png
 │   ├── Q2.ipynb
-│   ├── Q2.png
 │   ├── Q3.ipynb
-│   ├── Q3.png
 │   ├── Q4.ipynb
-│   ├── Q4.png
-│   ├── Q5.ipynb
-│   └── Q5.png
+│   └── Q5.ipynb
 ├── Test 2 B
 │   ├── image.png
 │   ├── Q1.ipynb
@@ -136,7 +138,7 @@ Check out the `pyproject` File for the libraries needed for this module, use `uv
 │   └── Q2.png
 └── uv.lock
 
-9 directories, 104 files
+13 directories, 102 files
 ```
 
 ## Notes to Self
